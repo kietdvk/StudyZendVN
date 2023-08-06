@@ -18,3 +18,5 @@ const TextStyle dStyleTextSecond = TextStyle(
 
 //Padding
 const EdgeInsets dPadding = EdgeInsets.all(20.0);
+const EdgeInsets dMagin = EdgeInsets.all(10.0);
+const EdgeInsets dMaginRight = EdgeInsets.only(right: 20);
