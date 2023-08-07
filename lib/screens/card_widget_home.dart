@@ -17,7 +17,7 @@ class CardWidget extends StatelessWidget {
             children: [
               Text(
                 title,
-                style: dStyleTextNomal,
+                style: dStyleTextNomal.copyWith(fontWeight: FontWeight.bold),
               ),
               Text(
                 "More...",

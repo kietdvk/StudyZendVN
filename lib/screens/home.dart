@@ -50,15 +50,23 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
-              CardWidget(
-                title: "Categories",
-              ),
-              // SizedBox(
-              //   height: 10,
-              // ),
-              CardWidget(
-                title: "News",
-              ),
+              Container(
+                margin: EdgeInsets.only(top: 20),
+                color: Colors.grey[100],
+                child: Column(
+                  children: [
+                    CardWidget(
+                      title: "Categories",
+                    ),
+                    // SizedBox(
+                    //   height: 10,
+                    // ),
+                    CardWidget(
+                      title: "News",
+                    ),
+                  ],
+                ),
+              )
             ],
           ),
         ));
