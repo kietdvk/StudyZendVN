@@ -5,6 +5,11 @@ const TextStyle dStyleTextMain = TextStyle(
   color: Colors.black,
 );
 
+const TextStyle dStyleTextNomal = TextStyle(
+  fontSize: 18.0,
+  color: Colors.black,
+);
+
 const TextStyle dStyleTextMainTitle = TextStyle(
   fontSize: 25.0,
   color: Colors.black,

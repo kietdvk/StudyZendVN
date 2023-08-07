@@ -35,7 +35,7 @@ class HomePage extends StatelessWidget {
           ],
         ),
         body: Padding(
-          padding: dPadding,
+          padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 20),
           child: Column(
             children: [
               Container(
@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
                 height: 180,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  gradient: LinearGradient(
+                  gradient: const LinearGradient(
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
                     colors: [Colors.white, Colors.blue],
@@ -53,9 +53,9 @@ class HomePage extends StatelessWidget {
               CardWidget(
                 title: "Categories",
               ),
-              SizedBox(
-                height: 50,
-              ),
+              // SizedBox(
+              //   height: 10,
+              // ),
               CardWidget(
                 title: "News",
               ),

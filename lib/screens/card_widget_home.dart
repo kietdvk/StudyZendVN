@@ -10,12 +10,21 @@ class CardWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Text(title),
-            Text("More..."),
-          ],
+        Padding(
+          padding: const EdgeInsets.only(top: 10, bottom: 10),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                title,
+                style: dStyleTextNomal,
+              ),
+              Text(
+                "More...",
+                style: dStyleTextNomal,
+              ),
+            ],
+          ),
         ),
         SingleChildScrollView(
           scrollDirection: Axis.horizontal,
@@ -43,7 +52,7 @@ class CardInfor extends StatelessWidget {
     return Container(
       margin: dMaginRight,
       width: 160,
-      height: 220,
+      height: 200,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
         gradient: LinearGradient(
