@@ -6,7 +6,7 @@ const TextStyle dStyleTextMain = TextStyle(
 );
 
 const TextStyle dStyleTextNomal = TextStyle(
-  fontSize: 18.0,
+  fontSize: 16.0,
   color: Colors.black,
 );
 

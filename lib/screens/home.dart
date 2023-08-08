@@ -51,7 +51,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 20),
+                margin: const EdgeInsets.only(top: 20),
                 color: Colors.grey[100],
                 child: Column(
                   children: [
